@@ -14,7 +14,7 @@ import Dashboard from "../pages/dashboard/Dashboard";
 import Profile from "../pages/dashboard/Profile";
 import StockAdd from "../pages/dashboard/StockAdd";
 import ViewStock from "../pages/dashboard/ViewStock";
-import logo from "../assets/images/mun.png";
+import logo from "../assets/images/logo.svg";
 import dashicon from "../assets/images/dashboard.png";
 import veg from "../assets/images/vegetables.png";
 import ver from "../assets/images/housekeeper.png";
@@ -287,8 +287,9 @@ const Sidebar = () => {
               collapsed ? "hidden" : "block"
             }`}
           >
-            सुनकोशी गाउँपालिका
-            <br /> हाट - बजार
+            हाम्रो
+            <br />
+            महोत्सब
           </p>
         </div>
 
