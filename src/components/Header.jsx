@@ -49,16 +49,9 @@ function Header({ isSticky }) {
         <div className="flex justify-between">
           <div className="flex-center gap-12 md:me-8 w-2/3 md:w-auto">
             <Link className="flex items-center" to="/">
-              <img
-                className="w-14 md:w-16 h-14 md:h-16"
-                src={municipalityLogo}
-                alt="Logo"
-              />
               <div className="text-left ms-2 md:ms-4 text-[#b83955] w-fit">
-                <h2 className="text-sm md:text-2xl">अनलाइन हाटबजार</h2>
-                <h4 className="text-xs md:text-lg">
-                  सुनकोशी गाउँपालिका द्वारा संचालित
-                </h4>
+                <h2 className="text-sm md:text-2xl">हाम्रो</h2>
+                <h4 className="text-xs md:text-lg">महोत्सब</h4>
               </div>
             </Link>
           </div>
