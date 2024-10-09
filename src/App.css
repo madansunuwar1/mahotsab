@@ -1,0 +1,168 @@
+.App-logo {
+  height: 40vmin !important;
+  pointer-events: none !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear !important;
+  }
+}
+
+.App-header {
+  background-color: #282c34 !important;
+  min-height: 100vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: calc(10px + 2vmin) !important;
+  color: white !important;
+}
+
+.App-link {
+  color: #61dafb !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg) !important;
+  }
+  to {
+    transform: rotate(360deg) !important;
+  }
+}
+
+.ant-layout .ant-layout-sider,
+.ant-menu-dark.ant-menu-inline .ant-menu-sub.ant-menu-inline {
+  background: #45730a !important;
+}
+
+.ant-menu-dark,
+.ant-menu-dark > .ant-menu {
+  background: #45730a !important;
+}
+
+.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-dark > .ant-menu .ant-menu-item-selected {
+  background: #730a45 !important;
+}
+
+.ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+  background: #415a77 !important;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+.ant-btn-primary {
+  background: #45730a !important;
+}
+
+.ant-divider-horizontal.ant-divider-with-text {
+  border-color: #156c66e6 !important;
+}
+
+.ant-divider-horizontal {
+  border-color: #156c66e6 !important;
+}
+
+.ant-layout-content {
+  margin: 0px 0px !important;
+  padding: 24px !important;
+  min-height: 100vh !important;
+  background: white !important;
+  border-radius: 0px !important;
+}
+
+.ant-input-filled {
+  border-color: rgb(168, 167, 167) !important;
+}
+
+.ant-select-filled:not(.ant-select-customize-input) .ant-select-selector {
+  border-color: rgb(168, 167, 167) !important;
+}
+
+.ant-input-outlined:hover {
+  border-radius: 5px !important;
+}
+
+.ant-form-item .ant-form-item-label,
+.ant-form-item .ant-form-item-control {
+  max-width: 100% !important;
+}
+
+.ant-menu-inline .ant-menu-item,
+.ant-menu-vertical .ant-menu-item,
+.ant-menu-inline .ant-menu-submenu-title,
+.ant-menu-vertical .ant-menu-submenu-title {
+  width: 100% !important;
+}
+
+.custom-notification {
+  background-color: #badad7e6 !important;
+}
+
+.ant-menu-inline-collapsed > .ant-menu-item,
+.ant-menu-inline-collapsed
+  > .ant-menu-item-group
+  > .ant-menu-item-group-list
+  > .ant-menu-item,
+.ant-menu-inline-collapsed
+  > .ant-menu-item-group
+  > .ant-menu-item-group-list
+  > .ant-menu-submenu
+  > .ant-menu-submenu-title,
+.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title {
+  padding-inline: 16px !important;
+}
+
+.ant-menu-inline .ant-menu-item,
+.ant-menu-vertical .ant-menu-item,
+.ant-menu-inline .ant-menu-submenu-title,
+.ant-menu-vertical .ant-menu-submenu-title {
+  margin-inline: 0px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .ant-layout-content {
+    padding: 10px !important;
+  }
+}
+
+.no-scrollbar {
+  scrollbar-width: none !important; /* Hide the scrollbar */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important; /* Hide the scrollbar */
+}
+
+/** Dashboard Sidebar **/
+.ant-menu-inline-collapsed > .ant-menu-item {
+  padding: 6px 24px !important;
+}
+
+/** Dashboard Main Body **/
+.ant-layout-header {
+  background: #fff !important;
+  box-shadow: 1px 3px 8px #d5d5d5;
+  z-index: 99 !important;
+}
+
+.ant-layout-content {
+  background: #f5f5f5 !important;
+}
+
+/** Dashboard Card **/
+.ant-card .ant-card-head,
+.ant-table-wrapper .ant-table-thead > tr > th {
+  background-color: white !important;
+  color: black !important;
+}
+
+:where(.css-dev-only-do-not-override-14qglws).ant-card .ant-card-body {
+  padding: 8px 16px;
+}
+
+:where(.css-dev-only-do-not-override-14qglws).ant-divider-horizontal {
+  margin: 12px 0;
+}

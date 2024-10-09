@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Kalimati";
+  src: url("./assets/fonts/Kalimati.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arya:wght@400;700&display=swap");
+
+* {
+  @apply font-arya;
+}
